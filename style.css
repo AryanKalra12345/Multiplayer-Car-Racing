@@ -1,0 +1,44 @@
+body { margin: 0; 
+  padding: 0; 
+  overflow: hidden; 
+  font-family: 'Poppins', sans-serif; 
+} 
+
+canvas { 
+  display: flex; 
+  align-self: center; 
+  margin: auto; 
+} 
+
+h1{ color: #ff5722; 
+  text-align: center; 
+} 
+
+h2, h3 { color: #880e4f; 
+  font-size: 25px; 
+  text-align: center; 
+}
+
+.customInput { width:200px; 
+  height:30px; 
+  border: 1px solid black; 
+  border-radius: 10px; 
+  padding: 5px; background-color: white; 
+  outline:none; 
+} 
+
+  .customButton { width:200px; 
+  height:60px; background-color: #fea834; 
+  border: none; color: #000; 
+  font-weight:bold; 
+  padding: 15px 32px; 
+  border-radius: 15px; 
+  margin-bottom:100px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; margin: 4px 2px; 
+  cursor: pointer; 
+  -webkit-transition-duration: 0.4s; 
+  /* Safari */ transition-duration: 0.4s; 
+}
